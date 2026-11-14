@@ -1,1 +1,2 @@
-# SupervisedLearningAlgorithms
+# Supervised Learning Algorithms
+This project compares four algorithms (Naive Bayes, decision tree, k-nearest neighbors and multiclass perceptron) on the MNIST digit dataset. The data has 10,000 training examples and 2,000 test examples, each described by 20 extracted features. Each algorithm is measured by its accuracy, confusion matrix and CPU time to show the trade-off between performance and resource use.
