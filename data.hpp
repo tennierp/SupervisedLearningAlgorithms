@@ -1,6 +1,6 @@
-// data.h - shared data loading and evaluation helpers for CS 480 Project 4
-#ifndef DATA_H
-#define DATA_H
+// data.hpp - shared data loading and evaluation helpers for CS 480 Project 4
+#ifndef DATA_HPP
+#define DATA_HPP
 
 #include <vector>
 #include <string>

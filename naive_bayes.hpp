@@ -1,4 +1,4 @@
-// naive_bayes.h - Naive Bayes classifier
+// naive_bayes.hpp - Naive Bayes classifier
 //
 // Numerical (continuous) features -> Gaussian likelihood  N(mean_c, var_c)
 // Discrete integer features (e.g. loops, *_intersections_max) -> frequency
@@ -8,10 +8,10 @@
 // Class priors also use Laplace correction:
 //       P(c) = (N_c + mu) / (N + mu * K)
 // All products are computed as sums of logs to avoid underflow.
-#ifndef NAIVE_BAYES_H
-#define NAIVE_BAYES_H
+#ifndef NAIVE_BAYES_HPP
+#define NAIVE_BAYES_HPP
 
-#include "data.h"
+#include "data.hpp"
 #include <cmath>
 #include <set>
 #include <limits>
